@@ -22,7 +22,7 @@ public class EncryptingConverter implements Converter {
     if (dataValue == null) {
       return null;
     }
-    return encryptor.decrypt(String.valueOf(String.valueOf(dataValue)));
+    return encryptor.decrypt(String.valueOf(dataValue));
   }
 
   @Override
